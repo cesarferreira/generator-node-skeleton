@@ -1,0 +1,27 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "author": {
+    "name": "Cesar Ferreira",
+    "email": "cesar.manuel.ferreira@gmail.com",
+    "url": "http://cesarferreira.com"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*",
+    "test": "xo && ava"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesarferreira/<%= moduleName %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cesarferreira/<%= moduleName %>/issues"
+  },
+  "homepage": "https://github.com/cesarferreira/<%= moduleName %>#readme",
+  "license": "MIT"
+}
