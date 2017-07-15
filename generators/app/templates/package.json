@@ -9,7 +9,7 @@
   },
   "scripts": {
     "lint": "eslint src/**/*",
-    "test": "xo && ava"
+    "test": "xo"
   },
   "main": "index.js",
   "keywords": [],
