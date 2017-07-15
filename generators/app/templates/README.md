@@ -1,6 +1,10 @@
 # <%= moduleName %>
 > <%= description %>
 
+<p align="center">
+  <img src="screenshot.png" width="100%" />
+</p>
+
 [![Build Status](https://travis-ci.org/cesarferreira/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/cesarferreira/<%= moduleName %>)
 [![npm](https://img.shields.io/npm/dt/<%= moduleName %>.svg)](https://www.npmjs.com/package/<%= moduleName %>)
 [![npm](https://img.shields.io/npm/v/<%= moduleName %>.svg)](https://www.npmjs.com/package/<%= moduleName %>)
