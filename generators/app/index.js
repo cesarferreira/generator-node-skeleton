@@ -43,7 +43,11 @@ module.exports = Generator.extend({
 
   install: function () {
     this.spawnCommand('git', ['init']);
-    const pkgs = ['eslint', 'ava', 'execa', 'xo'];
-    this.yarnInstall(pkgs, {dev: true});
+
+    const devPackages = ['eslint', 'ava', 'execa', 'xo'];
+    this.yarnInstall(devPackages, {dev: true});
+
+    const packages = ['node-time-log'];
+    this.yarnInstall(packages, {dev: false});
   }
 });
