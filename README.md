@@ -1,9 +1,16 @@
-# generator-node-skeleton [![NPM version][npm-image]][npm-url]
-> A yeoman generator for node projects
+# generator-node-skeleton
+
+> A yeoman generator for node modules
+
+<p align="center">
+  <img src="extras/ss1.png" width="100%" />
+</p>
+
+[![NPM version][npm-image]][npm-url]
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-node-skeleton using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-node-skeleton.
 
 ```bash
 npm install -g yo generator-node-skeleton
@@ -14,13 +21,6 @@ Then generate your new project:
 ```bash
 yo node-skeleton
 ```
-
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 ## License
 
