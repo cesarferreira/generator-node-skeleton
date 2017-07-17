@@ -47,7 +47,7 @@ module.exports = Generator.extend({
     const devPackages = ['eslint', 'xo'];
     this.yarnInstall(devPackages, {dev: true});
 
-    const packages = ['node-time-log', 'update-notifier', 'chalk'];
+    const packages = ['node-time-log', 'chalk'];
     this.yarnInstall(packages, {dev: false});
   }
 });

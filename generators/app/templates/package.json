@@ -8,8 +8,8 @@
     "url": "http://cesarferreira.com"
   },
   "scripts": {
+    "start": "node example.js",
     "lint": "eslint src/**/*",
-    "start": "node index.js",
     "test": "xo"
   },
   "main": "index.js",
