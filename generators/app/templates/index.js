@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
 const Chalk = require('chalk');
 const log = require('node-time-log').SimpleLog;
 
